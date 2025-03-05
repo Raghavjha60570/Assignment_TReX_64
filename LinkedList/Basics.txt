@@ -1,1 +1,56 @@
- 
+ Definition:
+
+
+A Linked List is a linear data structure where elements (called nodes) are connected using pointers. Unlike arrays, linked lists do not require a contiguous block of memory, making dynamic memory allocation easier.
+
+
+ Types of Linked Lists:
+
+
+1.Singly Linked List – Each node has data and a pointer to the next node.
+
+2.Doubly Linked List – Each node has a pointer to both the next and previous nodes.
+
+3.Circular Linked List – The last node points back to the first node, forming a loop.
+
+
+Structure of a Node (Singly Linked List):
+Each node consists of:
+
+Data (stores the value)
+Pointer (next) (stores the address of the next node)
+Example:
+
+css
+Copy code
+Head → [10 | *] → [20 | *] → [30 | null]
+
+
+Advantages of Linked Lists:
+
+
+✔ Dynamic Size – Can grow or shrink as needed.
+✔ Efficient Insertions/Deletions – No shifting required like in arrays.
+
+
+Disadvantages:
+
+
+✖ More Memory – Extra space needed for pointers.
+✖ Slower Access – No direct indexing like arrays.
+
+
+Applications of Linked Lists:
+
+
+Memory management (dynamic allocation)
+Implementing stacks and queues
+Undo/redo operations
+Graph representations (Adjacency list)
+Would you like a more detailed explanation on any topic?
+
+
+
+
+
+
