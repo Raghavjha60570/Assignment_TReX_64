@@ -1,1 +1,6 @@
-Ha
+What is Hashing ?
+<hr>
+-Hashing is optimised Way or Approach way in which array is defined till input maximum value if it is less than 10e6
+-In this Array every index store that how many times it is present in orignal array 
+
+for example -
